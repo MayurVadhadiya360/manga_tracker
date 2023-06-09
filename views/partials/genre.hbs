@@ -1,0 +1,35 @@
+<div class="container d-flex justify-content-center">
+<form id="myform" method="get">
+<div class="row my-1 container justify-content-center">
+    {{#each data}}
+        {{!-- <span>{{@index}}</span> --}}
+        <button type="button" class="btn btn_g col-auto my-1 me-2 {{this.css_class}}">{{this.title}}</button>
+    {{/each}}
+</div>
+<div class="row my-1 container justify-content-center">
+    <button type="button" id="anime_btn" class="btn btn_g col-auto me-2 btn-outline-secondary">Anime</button>
+    <button type="button" id="manga_btn" class="btn btn_g col-auto me-2 btn-outline-secondary">Manga</button>
+    {{!-- <button type="button" id="add_btn" class="btn col-auto me-2 btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Add</button> --}}
+</div>
+
+    {{!-- <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button>
+    <button type="button" class="btn col-2 me-2 btn-outline-primary">Primary</button> --}}
+{{!-- 
+
+<button type="button" class="btn me-2 btn-outline-primary">Primary</button>
+<button type="button" class="btn me-2 btn-outline-primary">Primary</button>
+<button type="button" class="btn me-2 btn-outline-primary">Primary</button> --}}
+</form>
+</div>
+
+<hr class="border border-primary border-2 opacity-50">
