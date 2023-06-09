@@ -2,7 +2,6 @@
   "name": "bookmarks",
   "version": "1.0.0",
   "description": "This is to maintain progress in anime and manga",
-  "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
   },
