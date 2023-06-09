@@ -1,6 +1,5 @@
 const express = require("express");
 const { MongoClient } = require('mongodb');
-// const url = "mongodb+srv://mayur123:mayur123@cluster0.wqzsozx.mongodb.net/?retryWrites=true&w=majority";
 const bodyparser = require("body-parser");
 var jsonparser = bodyparser.json();
 
